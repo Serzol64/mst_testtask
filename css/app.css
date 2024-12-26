@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Prata', sans-serif;
 }
 
+li span{
+
+}
+
 h2{ font-size: xxx-large; }
 h4{ font-size: x-large; }
 h3{font-size: xx-large;color: #38535d;width: 80%;}
@@ -106,7 +110,7 @@ main > #home .info ul{
     padding: 3%;
     list-style-type: none;
 }
-main > #home .info ul *{
+main > #home .info ul li{
     margin-top: 2%;
     margin-bottom: 2%;
     background: url('/mst_testtask/files/page/images/price.svg') no-repeat left center;
