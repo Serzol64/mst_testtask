@@ -207,7 +207,7 @@ footer > #footer div{
 footer > #footer div button{
     height: 40%;
 }
-@media screen (max-width: 720px){
+@media screen and (max-width: 720px){
     h2 {
         font-size: xx-large;
     }
@@ -286,7 +286,7 @@ footer > #footer div button{
         display: block;
         font-size: 110%;
     }
-    
+
 
 }
 @media screen and (min-width: 720px) and (max-width: 1600px){
