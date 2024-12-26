@@ -108,7 +108,7 @@ main > #home .info ul *{
 main > #info {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 100vw;
+    grid-template-columns: 30vw 1fr 30vw;
     gap: 0% 0%;
     width: 100%;
     padding-top: 20%;
