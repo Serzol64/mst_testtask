@@ -80,6 +80,30 @@ main > #info {
     gap: 1% 0%;
 }
 
+main > #info .image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+main > #info .info {
+    padding: 5%;
+}
+main > #info .info ul{
+    padding: 3%;
+    margin: 0 auto;
+}
+main > #info .info ul li{
+    
+}
+main > #info .info ul li:not(:nth-last-child(1)){
+    
+}
+main > #info .info button{
+    text-align: center;
+    width: 100%;
+}
+
 footer {
     display: grid;
     grid-auto-columns: 1fr;
