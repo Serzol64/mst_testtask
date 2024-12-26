@@ -13,17 +13,18 @@ h4{ font-size: x-large; }
 
 button{
     border: none;
-    padding: 2%;
     font-size: 72%;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    max-width: 80%;
+    padding: 3%;
 }
 
 header {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-columns: 10% 1fr 13%;
     gap: 1% 0%;
     padding: 1%;
     position: fixed;
@@ -75,14 +76,14 @@ main > #home .info ul *{
 main > #info {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 35% 40% 10%;
+    grid-template-columns: 30% 1fr 30%;
     gap: 1% 0%;
 }
 
 footer {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-rows: 15% 1fr;
+    grid-template-rows: 40% 1fr;
     gap: 1% 0%;
     width: 99vw;
 }
@@ -90,16 +91,14 @@ footer {
 footer > #menu{
     border-bottom: solid 2px #d5c9be;
     border-top: solid 2px #d5c9be;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 1%;
 }
 
-footer > #menu nav{
-    margin: 0 auto;
-}
+footer > #menu nav{display: block;text-transform: uppercase;margin-left: 32vw;text-decoration: none;}
 footer > #menu nav *{
     color: white;
     font-style: italic;
+    padding: 1%;
 }
 
 footer > #footer{
