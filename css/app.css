@@ -59,7 +59,7 @@ header {
     width: 100%;
 }
 
-header > #logo, footer > #footer div #logo{
+header > #logo{
     font-size: x-small;
     text-align: center;
 }
@@ -290,44 +290,24 @@ footer > #footer div button{
         display: block;
         font-size: 110%;
     }
+    footer > #footer {
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    footer > #footer div {
+        display: block;
+        margin-bottom: 5%;
+        margin-top: 3%;
+        margin-left: 4vw;
+    }
 
+    footer > #footer div button {
+        height: 40%;
+        margin-left: 20vw;
+    }
 
 }
 @media screen and (min-width: 720px) and (max-width: 1600px){
-     h2 {
-        font-size: xx-large;
-    }
-    h4 {
-        font-size: large;
-    }
-    main > #home .info ul {
-        font-size: 90%;
-    }
-    main > #home {
-        grid-template-columns: 100vw 100vw;
-    }
-
-    main > #home .info {
-        position: relative;
-        z-index: 1000;
-        background: rgba(0,0,0,0.5);
-        width: 100%;
-        height: 100%;
-        top: -11%;
-        left: -4%;
-        padding-left: 4%;
-    }
-
-    main > #home .image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        margin: 0 auto;
-    }
-    main > #home .image *{
-        height: 640px;
-        object-fit: contain;
-        margin: 0 auto;
-    }
+    
 }
