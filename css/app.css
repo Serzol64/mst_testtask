@@ -1,5 +1,3 @@
-@import url('../files/layout/fonts/Prata-regular.ttf');
-
 html, body{
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,25 +8,61 @@ h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Prata', sans-serif;
 }
 
+button{
+    border: none;
+    padding: 7%;
+    font-size: 72%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
 header {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 10% 1fr; 
-    gap: 1% 0%; 
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 10% 1fr 10%;
+    gap: 1% 0%;
+    padding: 1%;
+    position: fixed;
+    z-index: 0;
+    background-color: black;
+}
+
+header > #logo{
+    font-size: x-small;
+    text-align: center;
+}
+
+header > #menu nav{
+    margin-top: 1%;
+}
+header > #menu nav *{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 31px;
 }
 
 main > #home {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 70% 1fr; 
-    gap: 1% 0%; 
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 50% 50%;
+    gap: 1% 0%;
+}
+
+main > #home .info{
+    display: block;
+    float: left;
+    margin-left: 4vw;
+    margin-top: 35%;
 }
 
 main > #info {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 33% 1fr 1fr; 
-    gap: 1% 0%; 
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 35% 40% 10%;
+    gap: 1% 0%;
 }
 
 @media screen and (min-width: 360px) and (max-width: 720px){
