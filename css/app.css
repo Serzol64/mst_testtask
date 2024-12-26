@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, strong{
 
 h2{ font-size: xxx-large; }
 h4{ font-size: x-large; }
-h3{ font-size: xx-large; color: #38535d; }
+h3{font-size: xx-large;color: #38535d;width: 80%;}
 
 button{
     border: none;
@@ -21,31 +21,27 @@ button{
     max-width: 80%;
     padding: 3%;
     background: white;
-    color: transparent;
 }
 
 button[type='submit']{
     background-color: black;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    margin-left: 10%;
 }
 
-form{
+form{margin-top: 1%;}
 
-}
+fieldset{border: none;padding: 0%;}
 
-fieldset{
-
-}
-
-input{
-
-}
+input{width: 97%;padding: 3%;margin-top: 3%;margin-bottom: 3%;border-color: gray;outline: none;}
 input::placeholder{
     opacity: 0.5;
 }
 
-address{
-
-}
+address{font-style: normal;font-size: large;}
 
 header {
     display: grid;
@@ -54,7 +50,7 @@ header {
     gap: 1% 0%;
     padding: 1%;
     position: fixed;
-    z-index: 0;
+    z-index: 1;
     background-color: black;
     width: 99vw;
 }
@@ -132,35 +128,26 @@ main > #info .info button{
     margin-left: 8%;
 }
 
-main > #feedback{
+main > #feedback{padding: 5%;}
 
-}
+main > #feedback .form{width: 80vw;display: grid;grid-auto-columns: 1fr;grid-template-columns: 50% 50%;gap: 2% 1%;background: white;padding: 3%;margin: 0 auto;}
 
-main > #feedback .form{
-
-}
-
-main > #feedback .form form{
-
-}
+main > #feedback .form form{padding: 2%;}
 
 main > #feedback .form div{
-
+    position: relative;
+    z-index: 0;
 }
 
-main > #feedback .form div img:nth-child(1){
+main > #feedback .form div img:nth-child(1){width: 100%;height: 100%;object-fit: contain;display: inline-table;float: right;}
 
-}
-
-main > #feedback .form div img:nth-last-child(1){
-
-}
+main > #feedback .form div img:nth-last-child(1){width: 100%;height: 100%;object-fit: contain;display: inline-table;float: left;position: absolute;top: 8%;left: 23%;}
 
 
 footer {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-rows: 40% 1fr;
+    grid-template-rows: 25% 1fr;
     gap: 1% 0%;
     width: 99vw;
 }
@@ -179,32 +166,34 @@ footer > #menu nav *{
 }
 
 footer > #footer{
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 20% 1fr 20%; 
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 20vw 1fr 20vw;
     gap: 1% 0%;
+    padding: 2%;
 }
 
 footer > #footer div .social{
-    
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 5px;
 }
 footer > #footer div .social li{
-    
-}
-footer > #footer div .social li a{
-    
-}
-footer > #footer div .social li a *{
-    
+    padding: 2%;
 }
 footer > #footer div a.answer_link{
-    
+    color: white;
+    display: block;
 }
-
-footer > #footer div button{
-    
+footer > #footer div{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-rows: 1fr 10%; 
+    gap: 1% 0%;
+    width: 100%;
 }
-
 @media screen and (min-width: 360px) and (max-width: 720px){
 
 }
