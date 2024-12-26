@@ -79,7 +79,7 @@ header > #menu nav *{
 main > #home {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50vw 50vw;
     gap: 1% 0%;
     width: 100%;
 }
@@ -306,8 +306,13 @@ footer > #footer div button{
         height: 40%;
         margin-left: 20vw;
     }
-
+    footer > #footer div a.answer_link {
+        margin-top: 10%;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 720px) and (max-width: 1600px){
-    
+    main > #info {
+        grid-template-columns: 30vw 40vw 30vw;
+    }
 }
