@@ -46,6 +46,9 @@ input::placeholder{
     opacity: 0.5;
     color: gray;
 }
+input:active, input:focus{
+    border-color: #987574;
+}
 
 address{font-style: normal;font-size: large;}
 
@@ -79,7 +82,7 @@ header > #menu nav *{
     padding: 31px;
     font-style: italic;
 }
-header > #menu nav *:hover{
+header > #menu nav a:hover{
     color: black;
     background: white;
 }
