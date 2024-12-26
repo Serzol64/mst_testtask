@@ -11,9 +11,7 @@ h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Prata', sans-serif;
 }
 
-li span{
-
-}
+li span{display: inline-table;width: 75%;margin-left: 66px;}
 
 h2{ font-size: xxx-large; }
 h4{ font-size: x-large; }
@@ -114,6 +112,8 @@ main > #home .info ul li{
     margin-top: 2%;
     margin-bottom: 2%;
     background: url('/mst_testtask/files/page/images/price.svg') no-repeat left center;
+    background-size: auto;
+    height: 42px;
 }
 
 main > #info {
@@ -230,14 +230,27 @@ footer > #footer div button{
 #mobile img{
 
 }
+#mobile img.opened{
+    opacity: 0.5;
+}
 #mobile nav{
     display: none;
+    background: rgba(0,0,0,0.75);
+    width: 100vw;
+    height: 75vh;
+    overflow: auto;
 }
 #mobile nav.opened{
-
+    display: block;
 }
 #mobile nav a{
-    
+    font-size: x-large;
+    color: white;
+    font-style: italic;
+    display: block;
+    padding: 2%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 @media screen and (max-width: 720px){
     h2 {
@@ -259,7 +272,7 @@ footer > #footer div button{
         background: rgba(0,0,0,0.5);
         width: 100%;
         height: 100%;
-        top: -11%;
+        top: -128px;
         left: -4%;
         padding-left: 4%;
     }
