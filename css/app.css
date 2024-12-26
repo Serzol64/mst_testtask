@@ -104,11 +104,12 @@ main > #home .image *{
 main > #home .info ul{
     font-size: large;
     padding: 3%;
-    list-style-image: url('/mst_testtask/files/page/images/price.svg');
+    list-style-type: none;
 }
 main > #home .info ul *{
     margin-top: 2%;
     margin-bottom: 2%;
+    background: url('/mst_testtask/files/page/images/price.svg') no-repeat left center;
 }
 
 main > #info {
@@ -132,11 +133,12 @@ main > #info .info {
 main > #info .info ul{
     padding: 3%;
     margin: 0 auto;
-    list-style-image: url('/mst_testtask/files/page/images/list.svg');
+    list-style-type: none;
 }
 main > #info .info ul li{
     padding-top: 8%;
     padding-bottom: 8%;
+    background: url('/mst_testtask/files/page/images/list.svg') no-repeat left center;
 }
 main > #info .info ul li:not(:nth-last-child(1)){
     border-bottom: solid 1px #55556a;
