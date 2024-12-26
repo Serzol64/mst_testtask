@@ -79,6 +79,10 @@ header > #menu nav *{
     padding: 31px;
     font-style: italic;
 }
+header > #menu nav *:hover{
+    color: black;
+    background: white;
+}
 
 main > #home {
     display: grid;
@@ -222,36 +226,6 @@ footer > #footer div{
 footer > #footer div button{
     height: 40%;
 }
-
-#mobile{
-    display: none;
-    margin: 0 auto;
-}
-#mobile img{
-
-}
-#mobile img.opened{
-    opacity: 0.5;
-}
-#mobile nav{
-    display: none;
-    background: rgba(0,0,0,0.75);
-    width: 100vw;
-    height: 75vh;
-    overflow: auto;
-}
-#mobile nav.opened{
-    display: block;
-}
-#mobile nav a{
-    font-size: x-large;
-    color: white;
-    font-style: italic;
-    display: block;
-    padding: 2%;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
 @media screen and (max-width: 720px){
     h2 {
         font-size: xx-large;
@@ -371,10 +345,7 @@ footer > #footer div button{
 }
 @media screen and (max-width: 1600px){
     header {
-        grid-template-columns: 90% 10%;
-    }
-    #mobile{
-        display: block;
+        grid-template-columns: 100%;
     }
     header > #menu, header > #link{
         display: none;
