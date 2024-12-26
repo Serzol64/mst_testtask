@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6, strong{
 
 h2{ font-size: xxx-large; }
 h4{ font-size: x-large; }
+h3{ font-size: xx-large; color: #38535d; }
 
 button{
     border: none;
@@ -19,6 +20,27 @@ button{
     font-weight: bold;
     max-width: 80%;
     padding: 3%;
+    background: white;
+    color: transparent;
+}
+
+button[type='submit']{
+    background-color: black;
+}
+
+form{
+
+}
+
+fieldset{
+
+}
+
+input{
+
+}
+input::placeholder{
+    opacity: 0.5;
 }
 
 header {
@@ -94,15 +116,42 @@ main > #info .info ul{
     margin: 0 auto;
 }
 main > #info .info ul li{
-    
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 main > #info .info ul li:not(:nth-last-child(1)){
-    
+    border-bottom: solid 1px #55556a;
 }
 main > #info .info button{
     text-align: center;
     width: 100%;
+    margin-left: 8%;
 }
+
+main > #feedback{
+
+}
+
+main > #feedback .form{
+
+}
+
+main > #feedback .form form{
+
+}
+
+main > #feedback .form div{
+
+}
+
+main > #feedback .form div img:nth-child(1){
+
+}
+
+main > #feedback .form div img:nth-last-child(1){
+
+}
+
 
 footer {
     display: grid;
@@ -131,6 +180,9 @@ footer > #footer{
     grid-template-columns: 20% 1fr 20%; 
     gap: 1% 0%;
 }
+
+
+
 @media screen and (min-width: 360px) and (max-width: 720px){
 
 }
