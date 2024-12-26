@@ -43,6 +43,10 @@ input::placeholder{
     opacity: 0.5;
 }
 
+address{
+
+}
+
 header {
     display: grid;
     grid-auto-columns: 1fr;
@@ -181,7 +185,25 @@ footer > #footer{
     gap: 1% 0%;
 }
 
+footer > #footer div .social{
+    
+}
+footer > #footer div .social li{
+    
+}
+footer > #footer div .social li a{
+    
+}
+footer > #footer div .social li a *{
+    
+}
+footer > #footer div a.answer_link{
+    
+}
 
+footer > #footer div button{
+    
+}
 
 @media screen and (min-width: 360px) and (max-width: 720px){
 
