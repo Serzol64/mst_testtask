@@ -8,9 +8,12 @@ h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Prata', sans-serif;
 }
 
+h2{ font-size: xxx-large; }
+h4{ font-size: x-large; }
+
 button{
     border: none;
-    padding: 7%;
+    padding: 2%;
     font-size: 72%;
     text-transform: uppercase;
     text-align: center;
@@ -26,6 +29,7 @@ header {
     position: fixed;
     z-index: 0;
     background-color: black;
+    width: 99vw;
 }
 
 header > #logo{
@@ -56,6 +60,15 @@ main > #home .info{
     float: left;
     margin-left: 4vw;
     margin-top: 35%;
+}
+
+main > #home .info ul{
+    font-size: large;
+    padding: 3%;
+}
+main > #home .info ul *{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 main > #info {
