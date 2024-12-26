@@ -207,7 +207,7 @@ footer > #footer div{
 footer > #footer div button{
     height: 40%;
 }
-@media screen and (min-width: 360px) and (max-width: 720px){
+@media screen (max-width: 720px){
     h2 {
         font-size: xx-large;
     }
@@ -240,7 +240,7 @@ footer > #footer div button{
         margin: 0 auto;
     }
     main > #home .image *{
-        height: 156%;
+        height: 640px;
         object-fit: contain;
         margin: 0 auto;
     }
@@ -255,7 +255,75 @@ footer > #footer div button{
         display: none;
     }
 
+    main > #feedback {
+        padding-bottom: 10%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    main > #feedback .form {
+        width: 81vw;
+        grid-template-columns: 100%;
+        background: white;
+        padding: 2%;
+    }
+    input {
+        width: 90%;
+    }
+    button {
+        font-size: 90%;
+    }
+    main > #feedback .form div {
+        display: none;
+    }
+    footer {
+        grid-template-rows: repeat(2, 1fr);
+    }
+    footer > #menu nav {
+        margin-left: 7vw;
+    }
+    footer > #menu nav * {
+        padding: 1%;
+        display: block;
+        font-size: 110%;
+    }
+    
+
 }
 @media screen and (min-width: 720px) and (max-width: 1600px){
-    
+     h2 {
+        font-size: xx-large;
+    }
+    h4 {
+        font-size: large;
+    }
+    main > #home .info ul {
+        font-size: 90%;
+    }
+    main > #home {
+        grid-template-columns: 100vw 100vw;
+    }
+
+    main > #home .info {
+        position: relative;
+        z-index: 1000;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        top: -11%;
+        left: -4%;
+        padding-left: 4%;
+    }
+
+    main > #home .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        margin: 0 auto;
+    }
+    main > #home .image *{
+        height: 640px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
 }
