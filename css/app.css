@@ -1,0 +1,39 @@
+@import url('/css/files/layout/fonts/Prata-regular.ttf');
+
+html, body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6, strong{
+    font-family: 'Prata', sans-serif;
+}
+
+header {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 10% 1fr; 
+    gap: 1% 0%; 
+}
+
+main > #home {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 70% 1fr; 
+    gap: 1% 0%; 
+}
+
+main > #info {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 33% 1fr 1fr; 
+    gap: 1% 0%; 
+}
+
+@media screen and (min-width: 360px) and (max-width: 720px){
+
+}
+@media screen and (min-width: 720px) and (max-width: 1600px){
+
+}
